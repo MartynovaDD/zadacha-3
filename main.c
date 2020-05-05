@@ -34,7 +34,7 @@ int func(FILE* input_file){
     int** a;
     int* temp;
     int m=0, n=0, flag=0, f=0, fl=0, k=0, i=0, num=0, v = 0, fR = 0;
-    int max = DBL_MIN;
+    double max = DBL_MIN;
     if (!input_file){
         printf("Error! Cannot open file !\n");
         return -1;
